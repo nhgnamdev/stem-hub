@@ -1,8 +1,15 @@
-# Changelog — STEM HUB Pro V3
+# CHANGELOG
 
-- Thêm bộ chọn vai trò demo: Quản trị viên, Trưởng ban, Thành viên.
-- Ẩn các mục điều hướng không phù hợp vai trò và kiểm tra quyền ở các thao tác quản trị chính.
-- Thêm ma trận phân quyền dễ đọc trong Cài đặt & dữ liệu.
-- Thêm nút tạo dữ liệu demo mở rộng đến 80 thành viên, kèm 55 nhiệm vụ, 18 hoạt động, 100 giao dịch điểm và 20 thành tích (nếu chưa đủ).
-- Bổ sung cơ cấu 6 ban phù hợp tổ chức CLB STEM.
-- Làm rõ giới hạn: phân quyền frontend chỉ để trình diễn, chưa phải bảo mật thực tế.
+## V4 — Modular Edition
+- Tách CSS ra `css/style.css`.
+- Tách logic chính ra `js/app.js`.
+- Tách cấu hình vai trò và kiểm tra quyền giao diện ra `js/permissions.js`.
+- Tách chức năng tạo dữ liệu mẫu ra `js/demo-data.js`.
+- Bổ sung meta description và theme color.
+- Viết lại README với cấu trúc dự án, hướng dẫn GitHub Pages và giới hạn bảo mật.
+- Giữ nguyên các chức năng hiện có của bản V3 và nút tạo dữ liệu demo cho 80 thành viên.
+
+## V3
+- Kiểm tra dữ liệu khi nhập bản sao lưu.
+- Kiểm tra giá trị điểm, giao dịch tài chính, tiến độ sự kiện và điểm nhiệm vụ.
+- Bổ sung mô phỏng vai trò và tạo dữ liệu demo.
